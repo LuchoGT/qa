@@ -37,6 +37,7 @@ public class productDetailsTest {
         WebElement productList = web.findElement(By.cssSelector("[data-test='inventory-list']"));
         Boolean isProductListVisible = productList.isDisplayed();
         Assertions.assertTrue(isProductListVisible);
+        
     }
 
     @AfterEach
